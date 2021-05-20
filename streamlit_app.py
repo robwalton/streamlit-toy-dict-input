@@ -3,11 +3,11 @@ import streamlit as st
 from streamlit_toy_dict_input import dict_input
 
 
-st.title("Toy `dict_input` component")
+st.title("Toy `dict_input` / `json_input` component")
 
 st.write(
     """
-    A version of the standard dict view that is editable would be handy for
+    A version of the standard dict/JSON view that is editable would be handy for
     quick prototyping, for when an app has many parameters, and as a
     supplemental way to copy configuration in and out of a streamlit app.
     
@@ -46,7 +46,7 @@ st.write(
     The view on the left can be edited. It will revert to its last valid
     state if invalid json is entered, or if the key-structure of the dict
     is changed or the type of a value is changed from that of its initial
-    value (`config`).  The buttons copy json out of the component or into it.
+    value (`dict_template`).  The buttons copy json out of the component or into it.
 
     ### Call with a function
 
