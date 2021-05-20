@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "streamlit-dict-input-toy"
+version = "0.1.0"
+description = ""
+authors = ["walton <rob.walton@eng.ox.ac.uk>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pyperclip = "^1.8.2"
+streamlit = "^0.82.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^21.5b1"
+flake8 = "^3.9.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
