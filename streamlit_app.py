@@ -3,7 +3,7 @@ import streamlit as st
 from streamlit_toy_dict_input import dict_input
 
 
-st.title("Toy `dict_input` widget")
+st.title("Toy `dict_input` component")
 
 st.write(
     """
