@@ -11,7 +11,7 @@ st.write(
     quick prototyping, for when an app has many parameters, and as a
     supplemental way to copy configuration in and out of a streamlit app.
     
-    A native `dict_input` widget might be used to edit a
+    A native `dict_input` component might be used to edit a
     dictionary like this
     """
 )
@@ -26,14 +26,14 @@ with st.echo():
 
 st.write(
     """
-    and might look like a cross between the widgets below. The left is an
-    editable view of the standard dict widget on the right.
+    and might look like a cross between the components below. The left is an
+    editable view of the standard dict component on the right.
     """
 )
 
 col1, col2 = st.beta_columns(2)
 with col1:
-    st.write("A dict_input composite widget:")
+    st.write("A dict_input composite component:")
     with st.echo():
         d = dict_input("Edit me!", dict_template)
 with col2:
@@ -46,7 +46,7 @@ st.write(
     The view on the left can be edited. It will revert to its last valid
     state if invalid json is entered, or if the key-structure of the dict
     is changed or the type of a value is changed from that of its initial
-    value (`config`).  The buttons copy json out of the widget or into it.
+    value (`config`).  The buttons copy json out of the component or into it.
 
     ### Call with a function
 
