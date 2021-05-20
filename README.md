@@ -1,4 +1,4 @@
-# Toy Streamlit dict_input component
+# Toy Streamlit dict_input / json_input component
 
 A version of the Streamlit standard dict view that is editable would be handy for quick prototyping, for when an app has many parameters, and as a supplemental way to copy configuration in and out of a Streamlit app. Here is toy implementation and a Streamlit app to show how it works.
 
